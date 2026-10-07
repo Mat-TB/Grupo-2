@@ -6,7 +6,7 @@ int main(void)
     printf("Indique o valor do sensor(inteiro entre 0 e 1023)\n");
     int Dados;
     while(scanf(" %d",&Dados)!=1){
-        printf("Inválido\n");
+        printf("Inválido, indique um valor válido.\n");
         while(getchar()!= '\n');
     }
 float temp;
